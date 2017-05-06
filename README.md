@@ -1,12 +1,17 @@
-## 这是大标题
+## React
 
-You can use the [editor on GitHub](https://github.com/heliang0915/hl_blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+react是一个是视图层的框架并不负责mvvm更个框架层，而只是负责view层的显示，react本质上是一个状态机，通过操作状态的改变来完成视图层的渲染，底层采用
+虚拟DOM机制最小化DOM渲染来提升性能。
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```
+React.Children.map(this.props.children,(item)=>{
+    return <li>{item}</li>
+})
 
 ```markdown
 Syntax highlighted code block
