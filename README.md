@@ -12,7 +12,6 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 React.Children.map(this.props.children,(item)=>{
     return <li>{item}</li>
 })
-
 ```markdown
 Syntax highlighted code block
 
